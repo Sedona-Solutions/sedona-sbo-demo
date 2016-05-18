@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "121321f3a7e99c0f5ecb0b6c31d32118",
-    "content-hash": "50f4b90f6c953a46eb4e9a52ba404df5",
+    "hash": "9654f96944b1570f8d7983cfd0730f93",
+    "content-hash": "d9da2ab4a73160782233732d9381cbad",
     "packages": [
         {
             "name": "avanzu/admin-theme-bundle",
@@ -2204,12 +2204,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Sedona-Solutions/sedona-sbo.git",
-                "reference": "f7ae6c501f938f720313aefa9fedce4a6d6d1aa7"
+                "reference": "fcd016ff6e441b2c987dbf3f070a0b3070307594"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Sedona-Solutions/sedona-sbo/zipball/f7ae6c501f938f720313aefa9fedce4a6d6d1aa7",
-                "reference": "f7ae6c501f938f720313aefa9fedce4a6d6d1aa7",
+                "url": "https://api.github.com/repos/Sedona-Solutions/sedona-sbo/zipball/fcd016ff6e441b2c987dbf3f070a0b3070307594",
+                "reference": "fcd016ff6e441b2c987dbf3f070a0b3070307594",
                 "shasum": ""
             },
             "require": {
@@ -2248,7 +2248,7 @@
                 }
             ],
             "description": "Sedona Back-Office bundles",
-            "time": "2016-05-18 15:46:59"
+            "time": "2016-05-18 19:41:05"
         },
         {
             "name": "sensio/distribution-bundle",
