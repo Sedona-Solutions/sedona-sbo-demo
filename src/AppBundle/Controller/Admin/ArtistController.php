@@ -116,8 +116,9 @@ class ArtistController extends BaseCrudController
      */
     public function addAlbumAction(Artist $artist, Album $album)
     {
-        return $this->manageJsonAction($artist, $album, 'album', 'addAlbum', false);
+        return $this->manageJson($artist, $album, 'album', 'addAlbum', false);
     }
+
             
     /**
      * Remove relation Artist to album.
@@ -127,8 +128,9 @@ class ArtistController extends BaseCrudController
      */
     public function removeAlbumAction(Artist $artist, Album $album)
     {
-        return $this->manageJsonAction($artist, $album, 'album', 'removeAlbum', true);
-    }    
+        return $this->manageJson($artist, $album, 'album', 'removeAlbum', true);
+    }
+    
 
 
 }

@@ -1,0 +1,5 @@
+rules:
+  symfony.controller.too_many_actions_per_controller:
+    enabled: true
+    max_count: 15
+    threshold: 5

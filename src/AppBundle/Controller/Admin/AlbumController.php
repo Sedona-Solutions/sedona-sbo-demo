@@ -117,8 +117,9 @@ class AlbumController extends BaseCrudController
      */
     public function addArtistAction(Album $album, Artist $artist)
     {
-        return $this->manageJsonAction($album, $artist, 'artist', 'addArtist', false);
+        return $this->manageJson($album, $artist, 'artist', 'addArtist', false);
     }
+
             
     /**
      * Remove relation Album to artist.
@@ -128,8 +129,9 @@ class AlbumController extends BaseCrudController
      */
     public function removeArtistAction(Album $album, Artist $artist)
     {
-        return $this->manageJsonAction($album, $artist, 'artist', 'removeArtist', true);
-    }    
+        return $this->manageJson($album, $artist, 'artist', 'removeArtist', true);
+    }
+    
             
     /**
      * Lists all Track entities for property track of entity Album.
@@ -171,8 +173,9 @@ class AlbumController extends BaseCrudController
      */
     public function addTrackAction(Album $album, Track $track)
     {
-        return $this->manageJsonAction($album, $track, 'track', 'addTrack', false);
+        return $this->manageJson($album, $track, 'track', 'addTrack', false);
     }
+
             
     /**
      * Remove relation Album to track.
@@ -182,8 +185,9 @@ class AlbumController extends BaseCrudController
      */
     public function removeTrackAction(Album $album, Track $track)
     {
-        return $this->manageJsonAction($album, $track, 'track', 'removeTrack', true);
-    }    
+        return $this->manageJson($album, $track, 'track', 'removeTrack', true);
+    }
+    
 
 
 }
