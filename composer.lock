@@ -111,16 +111,16 @@
         },
         {
             "name": "components/jquery",
-            "version": "1.12.1",
+            "version": "1.12.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/components/jquery.git",
-                "reference": "b3879795fd6fa63ef364cdf9ae6cd779d61edfb2"
+                "reference": "5dd7297d7603e11e53bdcca2a71074d92de37b8f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/components/jquery/zipball/b3879795fd6fa63ef364cdf9ae6cd779d61edfb2",
-                "reference": "b3879795fd6fa63ef364cdf9ae6cd779d61edfb2",
+                "url": "https://api.github.com/repos/components/jquery/zipball/5dd7297d7603e11e53bdcca2a71074d92de37b8f",
+                "reference": "5dd7297d7603e11e53bdcca2a71074d92de37b8f",
                 "shasum": ""
             },
             "type": "component",
@@ -149,7 +149,7 @@
             ],
             "description": "jQuery JavaScript Library",
             "homepage": "http://jquery.com",
-            "time": "2016-02-24 08:51:35"
+            "time": "2016-05-25 06:50:04"
         },
         {
             "name": "components/jqueryui",
@@ -238,16 +238,16 @@
         },
         {
             "name": "datatables/datatables",
-            "version": "1.10.11",
+            "version": "1.10.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DataTables/DataTables.git",
-                "reference": "d0163e24a0735ef3c0f04886be301baba67482e1"
+                "reference": "3a432c5db3546b2ef0c192f2ae367811cb5edb9b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DataTables/DataTables/zipball/d0163e24a0735ef3c0f04886be301baba67482e1",
-                "reference": "d0163e24a0735ef3c0f04886be301baba67482e1",
+                "url": "https://api.github.com/repos/DataTables/DataTables/zipball/3a432c5db3546b2ef0c192f2ae367811cb5edb9b",
+                "reference": "3a432c5db3546b2ef0c192f2ae367811cb5edb9b",
                 "shasum": ""
             },
             "type": "library",
@@ -257,7 +257,7 @@
             ],
             "description": "DataTables is a plug-in for the jQuery Javascript library. It is a highly flexible tool, based upon the foundations of progressive enhancement, which will add advanced interaction controls to any HTML table.",
             "homepage": "http://www.datatables.net/",
-            "time": "2016-02-11 14:30:12"
+            "time": "2016-05-20 13:09:02"
         },
         {
             "name": "doctrine/annotations",
@@ -609,16 +609,16 @@
         },
         {
             "name": "doctrine/doctrine-bundle",
-            "version": "1.6.2",
+            "version": "1.6.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineBundle.git",
-                "reference": "e9c2ccf573b59b7cea566390f34254fed3c20ed9"
+                "reference": "fd51907c6c76acaa8a5234822a4f901c1500afc1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/e9c2ccf573b59b7cea566390f34254fed3c20ed9",
-                "reference": "e9c2ccf573b59b7cea566390f34254fed3c20ed9",
+                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/fd51907c6c76acaa8a5234822a4f901c1500afc1",
+                "reference": "fd51907c6c76acaa8a5234822a4f901c1500afc1",
                 "shasum": ""
             },
             "require": {
@@ -635,13 +635,14 @@
                 "phpunit/phpunit": "~4",
                 "satooshi/php-coveralls": "~0.6.1",
                 "symfony/phpunit-bridge": "~2.7|~3.0",
+                "symfony/property-info": "~2.8|~3.0",
                 "symfony/validator": "~2.2|~3.0",
                 "symfony/yaml": "~2.2|~3.0",
                 "twig/twig": "~1.10"
             },
             "suggest": {
                 "doctrine/orm": "The Doctrine ORM integration is optional in the bundle.",
-                "symfony/web-profiler-bundle": "to use the data collector"
+                "symfony/web-profiler-bundle": "To use the data collector."
             },
             "type": "symfony-bundle",
             "extra": {
@@ -684,7 +685,7 @@
                 "orm",
                 "persistence"
             ],
-            "time": "2016-01-10 17:21:44"
+            "time": "2016-04-21 19:55:56"
         },
         {
             "name": "doctrine/doctrine-cache-bundle",
@@ -2204,12 +2205,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Sedona-Solutions/sedona-sbo.git",
-                "reference": "fcd016ff6e441b2c987dbf3f070a0b3070307594"
+                "reference": "e4a8c8c13847c0f77c43756ef886e54deb25c646"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Sedona-Solutions/sedona-sbo/zipball/fcd016ff6e441b2c987dbf3f070a0b3070307594",
-                "reference": "fcd016ff6e441b2c987dbf3f070a0b3070307594",
+                "url": "https://api.github.com/repos/Sedona-Solutions/sedona-sbo/zipball/e4a8c8c13847c0f77c43756ef886e54deb25c646",
+                "reference": "e4a8c8c13847c0f77c43756ef886e54deb25c646",
                 "shasum": ""
             },
             "require": {
@@ -2248,7 +2249,7 @@
                 }
             ],
             "description": "Sedona Back-Office bundles",
-            "time": "2016-05-18 19:41:05"
+            "time": "2016-05-25 16:27:34"
         },
         {
             "name": "sensio/distribution-bundle",
@@ -3225,16 +3226,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.8.6",
+            "version": "v2.8.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "8408816780215fae055599d100b5385d9a247151"
+                "reference": "663b2d6202c3149515b39cfe50a174a130acb8e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/8408816780215fae055599d100b5385d9a247151",
-                "reference": "8408816780215fae055599d100b5385d9a247151",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/663b2d6202c3149515b39cfe50a174a130acb8e2",
+                "reference": "663b2d6202c3149515b39cfe50a174a130acb8e2",
                 "shasum": ""
             },
             "require": {
@@ -3355,7 +3356,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2016-05-09 21:45:54"
+            "time": "2016-06-06 16:05:37"
         },
         {
             "name": "trsteel/ckeditor-bundle",
@@ -3467,16 +3468,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.24.0",
+            "version": "v1.24.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "3e5aa30ebfbafd5951fb1b01e338e1800ce7e0e8"
+                "reference": "3566d311a92aae4deec6e48682dc5a4528c4a512"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/3e5aa30ebfbafd5951fb1b01e338e1800ce7e0e8",
-                "reference": "3e5aa30ebfbafd5951fb1b01e338e1800ce7e0e8",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/3566d311a92aae4deec6e48682dc5a4528c4a512",
+                "reference": "3566d311a92aae4deec6e48682dc5a4528c4a512",
                 "shasum": ""
             },
             "require": {
@@ -3524,7 +3525,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2016-01-25 21:22:18"
+            "time": "2016-05-30 09:11:59"
         },
         {
             "name": "willdurand/jsonp-callback-validator",
@@ -3622,7 +3623,7 @@
         },
         {
             "name": "symfony/phpunit-bridge",
-            "version": "v2.8.6",
+            "version": "v2.8.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/phpunit-bridge.git",
