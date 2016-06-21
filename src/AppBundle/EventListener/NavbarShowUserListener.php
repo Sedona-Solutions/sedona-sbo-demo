@@ -16,7 +16,7 @@ use JMS\DiExtraBundle\Annotation\InjectParams;
 use JMS\DiExtraBundle\Annotation\Inject;
 use JMS\DiExtraBundle\Annotation\Observe;
 use JMS\DiExtraBundle\Annotation\Service;
-use Symfony\Component\Security\Core\SecurityContext;
+use Symfony\Component\Security\Core\Authentication\Token\Storage\TokenStorageInterface;
 
 /**
  * @package Sedona\SBOTestBundle
@@ -25,17 +25,17 @@ use Symfony\Component\Security\Core\SecurityContext;
 class NavbarShowUserListener
 {
 
-    protected $security_context;
+    protected $token_storage;
 
     /**
      * @InjectParams({
-        "security_context": @Inject("security.context")
+        "token_storage": @Inject("security.token_storage")
      * })
-     * @param $security_context
+          
      */
-    public function __construct(SecurityContext $security_context)
+    public function __construct(TokenStorageInterface $token_storage)
     {
-        $this->security_context = $security_context;
+        $this->token_storage = $token_storage;
     }
 
     /**
@@ -50,7 +50,7 @@ class NavbarShowUserListener
 
     protected function getUser()
     {
-        return $this->security_context->getToken()->getUser();
+        return $this->token_storage->getToken()->getUser();
     }
 
 
